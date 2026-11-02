@@ -12,6 +12,7 @@ Do late deliveries lower review scores, and where, in terms of state and product
 ## Data and approach
 
 I used six tables for the analysis: `orders`, `customers`, `order_reviews`, `order_items`, `products`, and `product_category_name_translation`. For orders that have more than one review, I used the latest review (by `review_answer_timestamp`, with ties broken by `review_id`), leaving only one review per `order_id`. Orders that were not delivered or were missing a delivered date were excluded (2,971) because lateness can't be measured without a delivered date, leaving 96,470 orders (99,441 minus 2,971) for analysis. I used MySQL for the analysis and connected MySQL views directly to Power BI for visualization. I used the `order_items` table for the category-based analysis, because an order can contain items from different categories, so category counts are items, not orders (110,189 items from the 96,470 orders). Items with no product category were assigned "unknown".
+SQL scripts are in [sql-queries.sql](https://github.com/Nasir-ay/sql-to-bi-olist/blob/main/sql-queries.sql)
 
 ## Key findings
 
