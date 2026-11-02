@@ -46,3 +46,11 @@ I used six tables for the analysis: `orders`, `customers`, `order_reviews`, `ord
 
 - Obtain carrier-level data to test whether specific delivery providers drive late deliveries in RJ and BA.
 - Obtain customer acquisition cost and margin data to estimate what a late delivery costs the business, for example by combining them with each late customer’s order revenue.
+
+#### Data source:
+
+Olist Brazilian E-Commerce Public Dataset (Kaggle), CC BY-NC-SA 4.0. Raw data not included in this repo
+
+
+
+
