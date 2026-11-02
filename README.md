@@ -2,6 +2,9 @@
 
 ![Dashboard](olist-dashboard.png)
 
+**Data:** Olist Brazilian E-Commerce Public Dataset (https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), licence CC BY-NC-SA 4.0. Raw data not included in this repo.
+
+
 ## Business question
 
 Do late deliveries lower review scores, and where, in terms of state and product category, is the damage worst? Late deliveries can damage customer satisfaction, which may reduce repeat purchases and raise customer acquisition costs, making it important to identify where delivery problems are most severe. Using the Brazilian E-Commerce Public Dataset by Olist, which contains 99,441 orders from 2016 to 2018, I analyzed 96,470 delivered orders with an actual customer delivery date. In this analysis, an order counts as late if it arrived on a later calendar day than the estimated delivery date.
@@ -46,11 +49,6 @@ I used six tables for the analysis: `orders`, `customers`, `order_reviews`, `ord
 
 - Obtain carrier-level data to test whether specific delivery providers drive late deliveries in RJ and BA.
 - Obtain customer acquisition cost and margin data to estimate what a late delivery costs the business, for example by combining them with each late customer’s order revenue.
-
-#### Data source:
-
-Olist Brazilian E-Commerce Public Dataset (Kaggle), CC BY-NC-SA 4.0. Raw data not included in this repo
-
 
 
 
