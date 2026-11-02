@@ -1,6 +1,6 @@
 # Project 3: Late Deliveries and Review Scores (Olist)
 
-![Dashboard](dashboard.png)
+![Dashboard](olist-dashboard.png)
 
 ## Business question
 
