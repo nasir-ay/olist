@@ -1,6 +1,6 @@
 # Project 3: Late Deliveries and Review Scores (Olist)
 
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Business question
 
@@ -45,3 +45,4 @@ I used six tables for the analysis: `orders`, `customers`, `order_reviews`, `ord
 ## Next steps
 
 - Obtain carrier-level data to test whether specific delivery providers drive late deliveries in RJ and BA.
+- Obtain customer acquisition cost and margin data to estimate what a late delivery costs the business, for example by combining them with each late customer’s order revenue.
